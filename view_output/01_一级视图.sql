@@ -1,0 +1,2 @@
+CREATE ALGORITHM=UNDEFINED SQL SECURITY DEFINER VIEW `v_order_detail` AS select `order_details`.`id` AS `id`,`order_details`.`order_no` AS `order_no`,`order_details`.`product_name` AS `product_name`,`order_details`.`category` AS `category`,`order_details`.`quantity` AS `quantity`,`order_details`.`unit_price` AS `unit_price`,(`order_details`.`quantity` * `order_details`.`unit_price`) AS `amount`,`order_details`.`order_date` AS `order_date` from `order_details`
+;

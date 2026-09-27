@@ -1,0 +1,5 @@
+{
+  "input_sql_path": "0925.sql",
+  "output_dir": "view_output",
+  "enable_log": true
+}
